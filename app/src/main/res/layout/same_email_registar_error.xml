@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:paddingTop="40dp"
+        android:paddingBottom="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/email_registration_dialog_image" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Opps!"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorMain"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="this email already exists. Please try with another email. "
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:textColor="@color/colorFront"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/tryAgingButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Try Again"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:textColor="@color/colorWhite"
+            android:textAllCaps="false"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/button_bg"/>
+
+    </LinearLayout>
+
+</LinearLayout>
